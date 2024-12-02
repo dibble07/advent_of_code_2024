@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "advent_of_code_2024"
+version = "0.1.0"
+description = "Solutions to challenges in the [Advent of Code series 2024](adventofcode.com/2024)"
+authors = ["Robert Dibble <robertdibble@live.co.uk>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.12"
+black = {extras = ["jupyter"], version = ">=23"}
+pre-commit = "^4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
