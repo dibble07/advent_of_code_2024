@@ -11,6 +11,7 @@ python = ">=3.12"
 black = {extras = ["jupyter"], version = ">=23"}
 pre-commit = "^4"
 numpy = "^2"
+pqdm = "^0"
 
 [build-system]
 requires = ["poetry-core"]
