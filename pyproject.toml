@@ -10,8 +10,11 @@ package-mode = false
 python = ">=3.12"
 black = {extras = ["jupyter"], version = ">=23"}
 pre-commit = "^4"
+ipywidgets = "^8"
+jupyter = "^1"
 numpy = "^2"
 pqdm = "^0"
+tqdm = "^4"
 
 [build-system]
 requires = ["poetry-core"]
